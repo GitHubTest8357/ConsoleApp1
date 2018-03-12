@@ -10,8 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-                     
+                                 
                 Console.WriteLine("Starting Main - Getting Directories");
 
                 string[] myfiles = System.IO.Directory.GetFiles("c:\\users\\sullivp\\desktop");
@@ -20,8 +19,7 @@ namespace ConsoleApp1
                 System.Threading.Thread.Sleep(5000);
 
                 Console.WriteLine("Ending...");
-
-     
+                 
         }
     }
 }
