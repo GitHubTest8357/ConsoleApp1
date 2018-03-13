@@ -13,7 +13,7 @@ namespace ConsoleApp1
                                  
                 Console.WriteLine("Starting Main - Getting Directories");
 
-                string[] myfiles = System.IO.Directory.GetFiles("c:\\users\\sullivp\\desktop");
+                string[] myfiles = System.IO.Directory.GetFiles("c:\\user\\desktop");
 
                 Console.WriteLine(myfiles[0]);
                 System.Threading.Thread.Sleep(5000);
